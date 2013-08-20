@@ -21,7 +21,8 @@ PRODUCT_PACKAGES := \
 
 PRODUCT_COPY_FILES := \
     device/asus/tilapia/fstab.grouper:root/fstab.grouper \
-    device/asus/tilapia/init.tilapia.rc:root/init.grouper.rc
+    device/asus/tilapia/init.tilapia.rc:root/init.grouper.rc \
+    device/asus/tilapia/proprietary/apns-conf.xml:etc/apns-conf.xml
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/tilapia/overlay
