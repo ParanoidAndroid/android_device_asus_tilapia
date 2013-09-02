@@ -12,3 +12,5 @@
 /dev/block/platform/sdhci-tegra.3/by-name/SOS           /recovery           emmc      defaults                                                      defaults
 /dev/block/platform/sdhci-tegra.3/by-name/USP           /staging            emmc      defaults                                                      defaults
 /dev/block/platform/sdhci-tegra.3/by-name/RDO           /radio              ext4      defaults                                                      recoveryonly
+
+/devices/platform/tegra-ehci        /storage/usbdisk    vfat      defaults          voldmanaged=usbdisk:auto
